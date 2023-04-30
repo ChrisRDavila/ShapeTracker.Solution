@@ -22,14 +22,25 @@ namespace ShapeTracker.Models
     {
       return _side3;
     }
-
     public void SetSide3(int newValue)
     {
       _side3 = newValue;
     }
+
     public string CheckType()
     {
-      return "not a triangle";
-    }  
+      if ((Side1 > (Side2 + _side3)) || (Side2 > (Side1 + _side3)) || (_side3 > (Side1 + Side2))) 
+      {
+        return "not a triangle";
+      } 
+      else if ((Side1 != Side2) && ((Side1 != _side3)) && ((Side2 != _side3))) 
+      {
+        return "scalene triangle";
+      }
+      else
+      {
+        return "";
+      }
+    }
   }
 }
