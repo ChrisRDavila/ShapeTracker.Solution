@@ -1,8 +1,8 @@
-# (Application Name)
+# ShapeTracker.Solution
 
-#### (Brief Description of Application)
+#### Example repo for basic C# set up using contructors, class and namespaces
 
-#### By (Your Name Here)
+#### By Christopher Davila rewrite of Epicodus Repo
 
 ## Technologies Used
 
@@ -15,6 +15,8 @@
 
 
 ## Description
+
+Will create shapes using input fields, determine shape and then more specifically type of that shape based on conditional branching and input recieved
 
 ## Setup/Installation Requirements
 
